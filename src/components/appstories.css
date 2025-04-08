@@ -1,0 +1,57 @@
+.story-section {
+  background-color: #ffffff; /* clean white background */
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 100px;
+  gap: 10px;
+  max-width: 1200px;
+  width: 100%;
+  position: relative;
+}
+
+.box {
+  background-color: #f0f0f0; /* neutral light gray fallback */
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Grid variations */
+.tall {
+  grid-row: span 2;
+}
+.wide {
+  grid-column: span 2;
+}
+.small {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.title {
+  grid-column: 2 / span 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

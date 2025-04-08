@@ -1,0 +1,4 @@
+$env:NODE_OPTIONS="--openssl-legacy-provider"; npm start
+npm install react-router-dom@6.21.2
+npm install react-icons 
+npm install react-scripts

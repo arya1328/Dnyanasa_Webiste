@@ -1,0 +1,65 @@
+.navbar {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333333 !important;
+    font-size: 1.1rem;
+    padding: 10px 16px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link:focus,
+  .navbar-nav .nav-link.active {
+    background-color: #f4c542;
+    color: #000 !important;
+  }
+  
+  .navbar-nav .nav-link:focus {
+    outline: none;
+    box-shadow: 0 0 0.3rem rgba(244, 197, 66, 0.6);
+  }
+  
+  .navbar-nav .nav-link:focus:not(.active) {
+    background-color: transparent;
+    color: #333333 !important;
+  }
+  
+  .navbar-nav .nav-link:focus:not(.active):hover {
+    background-color: #f4c542;
+    color: #000 !important;
+  }
+  
+  /* Optional: Button style override (Sign Up) */
+  .btn-success {
+    background-color: #2c7a7b;
+    border-color: #2c7a7b;
+  }
+  
+  .btn-success:hover {
+    background-color: #285e61;
+    border-color: #285e61;
+  }
+  .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .navbar-brand span {
+    font-size: 1.2rem;
+  }
+  

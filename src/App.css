@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+body {
+  position: relative;
+  background-image: url("/assets/images/background.jpg");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img-container {
+  position: relative;
+  display: block;
+  padding: 0%;
+  margin: 0%;
+  width: vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img-container img {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0))); */
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.big-tagline strong {
+  color:  rgb(233, 126, 20);
+  box-shadow: 10px 10px 2px rgba(black, black, black, black);
 }
 
-.App-link {
-  color: #61dafb;
+.big-tagline {
+  position: absolute;
+  padding: 0 40px;
+  font-size: 80px;
+  color: black;
+  text-align: left;
+  top: 20%;
+  display: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.big-tagline p {
+  width: 30em;
+}
+
+.big-tagline h1 {
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: rgb(80, 73, 58) 5px 5px 10px;
+}
+.navbar-brand {
+
+  position: fixed;
+  top: 0%;
+  left: 3%;
+  width: 100%;
+  z-index: 10;
 }

@@ -1,0 +1,123 @@
+/* WRAPPER for Accordion + Reviews (side by side layout) */
+.classes-wrapper {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem 3rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  flex-wrap: wrap; /* Responsive stacking */
+}
+
+/* Accordion Side */
+.accordion-section {
+  flex: 3;
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+  min-width: 0; /* prevents content overflow */
+}
+
+/* Reviews Side */
+.reviews-section {
+  flex: 1;
+  background-color: #fff3e6;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.05);
+}
+
+/* Review cards */
+.review-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  font-size: 0.95rem;
+  color: #333;
+  border-left: 4px solid #9b59b6;
+}
+
+.review-card span {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #666;
+  font-style: italic;
+}
+
+/* Carousel container inside accordion */
+.carousel-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-right: 50px;
+  box-sizing: border-box;
+}
+
+/* Horizontal scroll layout */
+.scrolling-cards {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.scrolling-cards::-webkit-scrollbar {
+  display: none;
+}
+
+/* Each individual card */
+.service-card {
+  min-width: 200px;
+  flex: 0 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+/* Class cards inside accordion body */
+.class-card {
+  background: #eee;
+  padding: 0.6rem 1rem;
+  margin: 0.5rem 0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.class-card:hover {
+  background: #ddd;
+}
+
+/* Carousel arrow button */
+.scroll-arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  z-index: 10;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

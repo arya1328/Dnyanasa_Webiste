@@ -1,0 +1,52 @@
+.faq-container {
+    max-width: 900px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .faq-container h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .faq-container .lead {
+    text-align: center;
+    color: #666;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .accordion-button {
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  .accordion-button:hover,
+  .accordion-button:not(.collapsed) {
+    background-color: #e0d4f7;
+    color: #000;
+  }
+  
+  .accordion-body {
+    background-color: #fff;
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .accordion-item {
+    border: none;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  }
+  
