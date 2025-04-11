@@ -3,11 +3,12 @@ import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import AppFooter from './components/footer';
+
 import AppHeader from './components/header';
 import Home from './home'; // your new Home component
 import Classes from './classes';
-import MusicDanceAcademy from './musicdanceacademy'; // your new MusicDanceAcademy component
+import Blogs from './blogs'; // your new Blogs component
+import About from './about'; // your new About component
 
 function App() {
   return (
@@ -16,9 +17,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/classes" element={<Classes />} />
-        <Route path="/musicdanceacademy" element={<MusicDanceAcademy />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/about" element={<About />} />
       </Routes>
-      <AppFooter />
     </Router>
   );
 }

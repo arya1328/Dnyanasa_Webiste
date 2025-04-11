@@ -1,0 +1,170 @@
+/* about.css */
+
+.about-page {
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    padding-top: 60px;
+
+}
+
+/* //.img-container img {//
+    
+  } */
+
+.logo {
+    font-size: 1.2rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 8px;
+}
+
+.nav-links a {
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.9);
+}
+
+.hero-title {
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    padding-top: 60px;
+}
+
+/* Quote + Image */
+.quote-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.quote-section blockquote {
+    font-size: 1.2rem;
+    max-width: 400px;
+    font-style: italic;
+    border-left: 4px solid;
+    padding-left: 1rem;
+}
+
+/* Core Values */
+.core-values {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2rem;
+}
+
+.value-card {
+    border: 1px solid;
+    padding: 1rem;
+    width: 25%;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.value-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Team Members */
+.team-section {
+    text-align: center;
+    padding: 2rem;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.team-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid;
+}
+
+/* Journey Section */
+.journey-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.journey-flow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 0 2rem;
+}
+
+.journey-dot {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Footer */
+.about-footer {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px 20px 0 0;
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+}
+
+.value-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    width: 25%;
+    border-radius: 12px;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 280px;
+  }
+  
+  .value-card img {
+    margin-bottom: 1rem;
+    width: 40px;
+  }
+  
+  .value-card h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+  }
+  
+  .value-card p {
+    font-size: 0.95rem;
+    color: #555;
+    margin-top: 0.5rem;
+  }
+  
