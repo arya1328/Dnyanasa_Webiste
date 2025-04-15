@@ -1,0 +1,80 @@
+.hero-section {
+    background-color: #e9f5ec;
+    padding: 3rem 1.5rem;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    color: #5d6d7e;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .classes-wrapper {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem 3rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+  }
+  
+  .accordion-section {
+    flex: 3;
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+    min-width: 0;
+  }
+  
+  .reviews-section {
+    flex: 1;
+    background-color: #fcf3e3;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.05);
+  }
+  
+  .review-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    font-size: 0.95rem;
+    color: #333;
+    border-left: 4px solid #27ae60;
+  }
+  
+  .review-card span {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: #666;
+    font-style: italic;
+  }
+  
+  .class-list {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    color: #444;
+  }
+  
+  .class-list li {
+    margin-bottom: 0.5rem;
+    font-size: 1.05rem;
+  }
+  

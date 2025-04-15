@@ -80,7 +80,9 @@
 
 /* Each individual card */
 .service-card {
-  min-width: 200px;
+  
+  min-width:120px;
+  height: 240px;
   flex: 0 0 auto;
   border-radius: 8px;
   overflow: hidden;

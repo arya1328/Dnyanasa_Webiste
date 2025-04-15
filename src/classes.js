@@ -16,21 +16,21 @@ export default function Classes() {
             title: "Healthcare Training for Medicos",
             image: "/images/music.jpg",
             description: "Medical skills for future healthcare leaders.",
-            link: "/services/healthcare"
+            link: "/healthcaretraining"
         },
         {
             id: 3,
             title: "Soft Skill Development",
             image: "/images/music.jpg",
             description: "Build confidence, communication and leadership.",
-            link: "/services/softskills"
+            link: "/services/softskill"
         },
         {
             id: 4,
-            title: "IT Literacy Courses",
+            title: "Computer and IT Training",
             image: "/images/music.jpg",
             description: "Digital empowerment for all ages.",
-            link: "/services/it"
+            link: "/services/compclasses"
         },
         {
             id: 5,
@@ -44,7 +44,7 @@ export default function Classes() {
             title: "Health Checkup Camps",
             image: "/images/music.jpg",
             description: "Promoting preventive care and awareness.",
-            link: "/services/health-camp"
+            link: "/services/healthcamp"
         },
     ];
 
